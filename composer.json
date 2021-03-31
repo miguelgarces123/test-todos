@@ -1,0 +1,14 @@
+{
+    "name": "miguelgarces/test-todos",
+    "description": "Este es un paquete de enseñanza",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Miguel Garces",
+            "email": "miguelgarces2415@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
