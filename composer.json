@@ -10,5 +10,20 @@
         }
     ],
     "minimum-stability": "stable",
-    "require": {}
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "MiguelGarces\\Unicornio": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "MiguelGarces\\Unicornio\\ServiceProvider"
+            ],
+            "aliases": {
+                "Saludo": "MiguelGarces\\Unicornio\\Facades\\SaludoFacade"
+            }
+        }
+    }
 }
