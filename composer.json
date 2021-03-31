@@ -13,7 +13,7 @@
     "require": {},
     "autoload": {
         "psr-4": {
-            "MiguelGarces\\Unicornio": "src/"
+            "MiguelGarces\\Unicornio\\": "src"
         }
     },
     "extra": {
